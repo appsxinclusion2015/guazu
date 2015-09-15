@@ -16,7 +16,7 @@ Route::get('/', function () {
 Route::get('/inicio', function () {
     return view('inicio');
 });
-Route::get('/jugar', function () {
+Route::get('/jugar/{ambiente}', function () {
     return view('jugar');
 });
 Route::get('/cargar-imagenes/{ambiente}', function () {

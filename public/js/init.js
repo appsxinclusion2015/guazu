@@ -12,8 +12,7 @@ $(function() {
    var incorrectos = new Array();
    var opciones = new Array();
 
-   function getRandomInt(min, max)
-   {
+   function getRandomInt(min, max){
       return Math.floor(Math.random() * (max - min + 1)) + min;
    }  
    
@@ -29,7 +28,7 @@ $(function() {
          incorrectos.push(data[otros_ambientes][index]);
          opciones.push(data[otros_ambientes][index]);
       });
-      data[ambiente] = JSON.parse(localStorage.getItem('cocina'));
+      data[ambiente] = JSON.parse(localStorage.getItem('baño'));
       console.log("data ambiente")
       console.log(JSON.stringify(data[ambiente]))
       var range          = [0, (data.length - 1) ];
@@ -79,7 +78,7 @@ $(function() {
          //$("#consigna").append('<p>Coloca en la mesa<p/>');
          $("#consigna").addClass('consigna-cocina');
          $("#cuadro").addClass('cuadro-blanco');
-         responsiveVoice.speak('coloca en la mesa lo que usas para desayunar', "Spanish Female")
+         responsiveVoice.speak('arrastra los elementos que usas en el banio', "Spanish Female")
          var margin = 15;
          // mostramos todos los objetos. Siempre seran 6 por el momento
          for(var x=0; x < cantidad_maxima_opciones; x++)
@@ -87,8 +86,8 @@ $(function() {
 
             var imagen_objeto = opciones[x].imagen;
             margin = margin + 9;
-
-            $(".hotspots").append('<a href="#" id="'+opciones[x].nombre+'" class="imagen0 objeto" style="top:71%;left:' + margin + '%;background:url('+imagen_objeto+')"></a>');
+            console.log(opciones[x].nombre)
+            $(".hotspots").append('<a href="#" id="'+opciones[x].nombre+'" class="imagen0 objeto" style="top:71%;left:' + margin + '%;background:url('+imagen_objeto+'); background-repeat:no-repeat;"></a>');
             //'style="top:45%;left:' + margin + '%" id='+opciones[x].nombre+''$(".imagen0").css()
          }
 

@@ -17,21 +17,25 @@
 </head>
 
 <body>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="imageMap" aria-haspopup="true">
-        <p id="consigna" class="consigna"></p>
-        <p id="consigna-centrada" class="consigna-centrada"></p>
-        <img id="image-casa" src="/images/background/bg.jpg" class="img-responsive" alt="">
-        <div class="hotspots contenedorPreguntas">
-        </div>
-        <div class="row">
-          <a href="/inicio" class="imagen4 drop-target btn-jugar"></a>
-          <a href="/elegir-ambiente" class="imagen5 drop-target cargar-imagenes"></a>
-
-        </div>
-      </div>
+  <div>
+    <div id="clouds">
+      <div class="cloud x1"></div>
+    	<div class="cloud x2"></div>
+    	<div class="cloud x3"></div>
+    	<div class="cloud x4"></div>
+    	<div class="cloud x5"></div>
     </div>
+  </div>
+  <div class="imageFondo" aria-haspopup="true">
+    <p id="logo" class="logo">
+      <img id="image-logo" src="/images/imagenes/logo.png" class="img-responsive" alt="">
+    </p>
+    <p id="btn-jugar" class="container-jugar">
+      <a href="/inicio">
+        <img id="image-logo" src="/images/imagenes/boton-jugar.png" class="img-responsive" alt="">
+      </a>
+    </p>
+    <img id="image-casa" src="/images/background/bg.png" class="img-responsive" alt="">
   </div>
 </body>
 

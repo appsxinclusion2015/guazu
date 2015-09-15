@@ -22,11 +22,10 @@
       <div class="imageMap" aria-haspopup="true">
         <div id='sonido' class='diva animacion icono-voz'></div>
         <p id="consignaHablada" class="consigna"></p>
-        <img id="image-casa" src="/images/background/bg-cocina.jpg" class="img-responsive" alt="">
+        <img id="fondoCarga" src="/images/background/carga-bg-banio.jpg" class="img-responsive" alt="">
         <div class="hotspots contenedorPreguntas"></div>
-          <a id="mesainicial" class="centro-cocina mesa-objetos drop-target"></a>
-          <a  id="consigna"></a>
-          <a  id="cuadro" ></a>
+          <a id="fondo" class="centro drop-target"></a>
+          <a id="consigna"class="consigna-juego"></a>
       </div>
     </div>
   </div>
@@ -53,6 +52,6 @@
   </div>
 </div>
 <script type="text/javascript" src="/js/opciones.js"></script>
-<script type="text/javascript" src="/js/init.js"></script>
+<script type="text/javascript" src="/js/juego.js"></script>
 
 </html>

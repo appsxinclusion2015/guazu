@@ -63,9 +63,6 @@
              // Hrmm, SM2 could not start. Missing SWF? Flash blocked? Show an error, etc.?
           }
        });
-       console.log("ssd")
-
-
     });
 
     $("body").on("click", "#musica", function(e) {
@@ -95,7 +92,7 @@
        responsiveVoice.speak($(".consigna").text(), "Spanish Female")
     });
     
-        $("body").on("click", "#sonido2", function(e) {
+    $("body").on("click", "#sonido2", function(e) {
        e.stopImmediatePropagation();
        responsiveVoice.speak($(".consigna2").text(), "Spanish Female")
     });
