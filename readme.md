@@ -4,9 +4,9 @@
 
 ## Integrantes
 
-Flavia Serei
-Juan Pablo Navone
-Nicolas Gonzalez
-Sebastian Lorenzo
-Antonella Andornino
-Viviana Mansilla
+Flavia Serei <br /> 
+Juan Pablo Navone <br /> 
+Nicolas Gonzalez <br /> 
+Sebastian Lorenzo<br /> 
+Antonella Andornino<br /> 
+Viviana Mansilla<br /> 
